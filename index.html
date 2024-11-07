@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  class="dark" id="htmlTag">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,13 +10,13 @@
     <title>CREATIVES FOR YOU</title>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="bg-white dark:bg-gray-900">
     <!--this is header section-->
     <nav class="py-2 md:py-5">
       <div class="container mx-auto flex justify-between items-center">
         <div>
           <img
-            class="w-[100px] lg:w-[200px]"
+            class="w-[100px] lg:w-[200px] dark:bg-red-500 dark:rounded-full dark:px-3"
             src="image/c4u full logo_2022 1.png"
             alt=""
           />
@@ -28,12 +28,12 @@
             <li
               class="transition hover:scale-105 ms-2 hover:translate-y-1 hover:text-red-700"
             >
-              <a href="#">Home</a>
+              <a class="dark:text-white" href="#">Home</a>
             </li>
             <li
               class="transition hover:scale-105 hover:translate-y-1 hover:text-red-700"
             >
-              <a class="" href="#">About Us</a>
+              <a class="dark:text-white" href="#">About Us</a>
             </li>
             <li
               class="transition hover:scale-105 hover:translate-y-1 hover:text-red-700"
@@ -43,14 +43,14 @@
             <li
               class="transition hover:scale-105 hover:translate-y-1 hover:text-red-700"
             >
-              <a>Contact Us</a>
+              <a class="dark:text-white">Contact Us</a>
             </li>
           </ul>
         </div>
         <div class="flex justify-center items-center">
           <button
             type="submit"
-            class="bg-[#F44335] md:text-base text-[12px] md:font-semibold py-1 md:py-3 md:px-6 rounded-md text-white hover:bg-[#8d120a] transition hover:scale-105 hover:translate-y-1"
+            class="bg-[#F44335] md:text-base text-[10px] md:font-semibold py-1 md:py-3 md:px-6 rounded-md text-white hover:bg-[#8d120a] transition hover:scale-105 hover:translate-y-1"
           >
             Register Interest
           </button>
@@ -61,7 +61,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-7 stroke-black ms-1 me-1 md:ms-3 lg:ms-6 hover:scale-105 transition-all duration-300"
+              class="size-7 stroke-black ms-1 me-1 md:ms-3 lg:ms-6 hover:scale-105 transition-all duration-300 dark:stroke-white"
             >
               <path
                 stroke-linecap="round"
@@ -75,7 +75,7 @@
     </nav>
 
     <!--THIS IS HERO SECTION-->
-    <section class="md:flex md:px-0 px-4 md:py-10 py-5 w-full bg-[#FAFAFA]">
+    <section class="md:flex md:px-0 px-4 md:py-10 py-5 w-full bg-[#FAFAFA] dark:bg-gray-600">
       <!--LEFT SECTION-->
       <div class="">
         <h3 class="md:ms-20 text-xs md:text-lg">
@@ -129,7 +129,7 @@
     </section>
 
     <!--THIS IS BANNER SECTION-->
-    <div class="grid grid-cols-12 w-full py-10 md:mx-20 md:pe-20 p-1">
+    <div class="grid grid-cols-12 w-full py-10 md:ps-20 md:pe-20 p-1 dark:bg-gray-600">
       <div
         class="md:col-span-3 col-span-12 px-3 md:px-4 text-14px md:text-[18px] md:border-r md:border-r-2 border-[#D1D3D4] text-center"
       >
@@ -152,7 +152,7 @@
     </div>
 
     <!--THIS IS FEATURE SECTION-1-->
-    <div class="grid grid-cols-12 bg-[#FAFAFA] gap-5 justify-items-center">
+    <div class="grid grid-cols-12 bg-[#FAFAFA] gap-5 justify-items-center dark:bg-gray-600">
       <!--LEFT SECTION-->
       <div
         class="md:col-span-6 md:ms-20 col-span-12 p-3 md:p-6 shadow-xl shadow-slate-300 md:my-16 my-8 rounded-xl"
@@ -225,10 +225,10 @@
     </div>
 
     <!--THIS IS FEATURE SECTION-2-->
-    <div class="grid grid-cols-12 bg-[#FAFAFA] gap-5 mb-8 justify-items-center">
+    <div class="grid grid-cols-12 bg-[#FAFAFA] gap-5 justify-items-center dark:bg-gray-600">
       <!--LEFT SECTION-->
       <div
-        class="md:col-span-6 col-span-12 justify-items-center md:ms-20 shadow-xl shadow-slate-300 rounded-lg p-1"
+        class="md:col-span-6 col-span-12 justify-items-center md:ms-20 shadow-xl shadow-slate-300 rounded-lg p-1 md:mb-10"
       >
         <h2 class="heading-2">Jobs Assocaited with Certificate</h2>
         <div class="flex justify-items-center">
@@ -288,9 +288,9 @@
         </div>
       </div>
       <!--RIGHT SECTION-->
-      <div class="md:col-span-6 col-span-12 w-full object-cover lg:pe-20 p-1">
+      <div class="md:col-span-6 col-span-12 w-full object-fill md:pe-20 p-1 md:mb-10">
         <img
-          class="w-full object-cover h-auto"
+          class="w-full m-0 p-0 g-0 object-cover h-auto shadow-xl shadow-slate-300 rounded-3xl"
           src="image/IT Support 1.png"
           alt=""
         />
@@ -300,7 +300,7 @@
     <!--THIS IS COURSE SECTION-->
     <div class="flex items-center md:ms-20 my-10 md:mt-32 p-1 lg:ps-32">
        <div>
-        <h1 class=" text-xs md:text-2xl font-bold mb-3 md:mb-10 ">There are 5 Courses in this Professional Certificate</h1>
+        <h1 class=" text-xs md:text-2xl font-bold mb-3 md:mb-10 dark:text-gray-200">There are 5 Courses in this Professional Certificate</h1>
       
       <div>
            <button class="course-btn bg-green-400">course 1</button>
@@ -372,7 +372,7 @@
        </div>
 
        <!--THIS IS FOOTER  SECTION-->
-       <footer class="md:pt-10 pt-5 px-2 md:px-10 lg:ps-20 ">
+       <footer class="md:pt-10 pt-5 px-2 md:px-10 lg:ps-20 dark:bg-gray-500">
         <div class="grid grid-col-24 grid-flow-col">
         <div class="col-span-4 md:p-2">
           <img src="image/c4u full logo_2022 1.png" alt="">
@@ -432,5 +432,11 @@
           Copyright 2022 Creatives For You LTD
         </div>
        </footer>
+
+        
+    <script>
+      const htmlTag = document.getElementById("htmlTag")
+      document.getElementById("switch").addEventListener("click", function () { htmlTag.classList.toggle("dark"); });
+    </script>
   </body>
 </html>
